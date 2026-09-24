@@ -28,3 +28,7 @@ data/evaluation/results/
 # OS
 .DS_Store
 Thumbs.db
+
+#.env
+
+.agents/
