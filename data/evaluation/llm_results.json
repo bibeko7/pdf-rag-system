@@ -1,0 +1,203 @@
+﻿{
+  "results": [
+    {
+      "id": "q001",
+      "question": "What is Machine Learning?",
+      "ground_truth": "Machine Learning (ML) is a branch of Artificial Intelligence in which computers learn patterns from data and use those patterns to make predictions, classifications, or decisions. Instead of writing every rule manually, we provide data and an appropriate learning algorithm.",
+      "type": "answerable",
+      "answer": "Machine Learning (ML) is a branch of Artificial Intelligence in which computers learn patterns from data and use those patterns to make predictions, classifications, or decisions. Instead of writing every rule manually, we provide data and an appropriate learning algorithm.",
+      "latency_seconds": 19.98453879999579,
+      "source_pages": [
+        1,
+        1
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q002",
+      "question": "What are the main types of Machine Learning?",
+      "ground_truth": "The major categories are supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning. Supervised learning uses labeled data; unsupervised learning discovers structure in unlabeled data; semi-supervised learning combines a small amount of labeled data with a larger amount of unlabeled data; reinforcement learning learns through rewards and penalties.",
+      "type": "answerable",
+      "answer": "The major categories are supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning. Supervised learning uses labeled data; unsupervised learning discovers structure in unlabeled data; semi-supervised learning combines a small amount of labeled data with a larger amount of unlabeled data; reinforcement learning learns through rewards and penalties.",
+      "latency_seconds": 26.878668699995615,
+      "source_pages": [
+        1,
+        1
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q003",
+      "question": "Why is data preprocessing important?",
+      "ground_truth": "Real-world data is often incomplete, noisy, inconsistent, or stored in unsuitable formats. Preprocessing converts raw data into a form that algorithms can use effectively. Good preprocessing can improve model accuracy, stability, training speed, and fairness.",
+      "type": "answerable",
+      "answer": "Real-world data is often incomplete, noisy, inconsistent, or stored in unsuitable formats. Preprocessing converts raw data into a form that algorithms can use effectively. Good preprocessing can improve model accuracy, stability, training speed, and fairness.",
+      "latency_seconds": 22.623425199999474,
+      "source_pages": [
+        1,
+        1,
+        6
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q004",
+      "question": "What is data leakage?",
+      "ground_truth": "Data leakage occurs when information unavailable at prediction time influences model training. It can produce unrealistically good validation results and poor real-world performance. Preprocessing must therefore be fitted only on the training data and then applied to validation or test data.",
+      "type": "answerable",
+      "answer": "Data leakage occurs when information unavailable at prediction time influences model training. It can produce unrealistically good validation results and poor real-world performance. Preprocessing must therefore be fitted only on the training data and then applied to validation or test data.",
+      "latency_seconds": 23.905415600020206,
+      "source_pages": [
+        2,
+        2
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q005",
+      "question": "What is EDA?",
+      "ground_truth": "Exploratory Data Analysis (EDA) is the process of examining data using statistics and visualizations to understand distributions, relationships, missing values, anomalies, and potential data-quality problems before modeling.",
+      "type": "answerable",
+      "answer": "Exploratory Data Analysis (EDA) is the process of examining data using statistics and visualizations to understand distributions, relationships, missing values, anomalies, and potential data-quality problems before modeling.",
+      "latency_seconds": 22.907757400011178,
+      "source_pages": [
+        2,
+        2
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q006",
+      "question": "What is regression?",
+      "ground_truth": "Regression predicts a continuous numerical target. Examples include predicting house prices, temperature, revenue, or demand.",
+      "type": "answerable",
+      "answer": "Regression predicts a continuous numerical target. Examples include predicting house prices, temperature, revenue, or demand.",
+      "latency_seconds": 22.099986199988052,
+      "source_pages": [
+        3,
+        3
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q007",
+      "question": "What is Random Forest?",
+      "ground_truth": "Random Forest is an ensemble of decision trees trained using randomization and typically aggregated by voting for classification or averaging for regression. It often provides strong performance with relatively little preprocessing.",
+      "type": "answerable",
+      "answer": "Random Forest is an ensemble of decision trees trained using randomization and typically aggregated by voting for classification or averaging for regression. It often provides strong performance with relatively little preprocessing.",
+      "latency_seconds": 21.53752889999305,
+      "source_pages": [
+        3,
+        3,
+        5
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q008",
+      "question": "What is K-Means?",
+      "ground_truth": "K-Means partitions observations into K clusters by repeatedly assigning points to the nearest centroid and updating centroids. The objective is to minimize within-cluster squared distances. Choosing K is a modeling decision rather than a universal fixed value.",
+      "type": "answerable",
+      "answer": "K-Means partitions observations into K clusters by repeatedly assigning points to the nearest centroid and updating centroids. The objective is to minimize within-cluster squared distances. Choosing K is a modeling decision rather than a universal fixed value.",
+      "latency_seconds": 26.579696200002218,
+      "source_pages": [
+        4,
+        4
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q009",
+      "question": "What is PCA?",
+      "ground_truth": "Principal Component Analysis (PCA) transforms correlated variables into a smaller set of orthogonal components that capture as much variance as possible. It is commonly used for dimensionality reduction, visualization, compression, and noise reduction.",
+      "type": "answerable",
+      "answer": "Principal Component Analysis (PCA) transforms correlated variables into a smaller set of orthogonal components that capture as much variance as possible. It is commonly used for dimensionality reduction, visualization, compression, and noise reduction.",
+      "latency_seconds": 24.3211782000144,
+      "source_pages": [
+        4,
+        4
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q010",
+      "question": "What is overfitting?",
+      "ground_truth": "Overfitting occurs when a model learns training-specific noise or details instead of general patterns. It often shows as very good training performance but noticeably worse validation or test performance.",
+      "type": "answerable",
+      "answer": "Overfitting occurs when a model learns training-specific noise or details instead of general patterns. It often shows as very good training performance but noticeably worse validation or test performance.",
+      "latency_seconds": 22.586893100000452,
+      "source_pages": [
+        5,
+        5
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q011",
+      "question": "What is the difference between Random Forest and Gradient Boosting?",
+      "ground_truth": "Random Forest mainly reduces variance by averaging many randomized trees trained relatively independently. Gradient Boosting builds trees sequentially to reduce a chosen loss. Boosting can achieve excellent accuracy but generally requires more careful tuning.",
+      "type": "answerable",
+      "answer": "Random Forest mainly reduces variance by averaging many randomized trees trained relatively independently. Gradient Boosting builds trees sequentially to reduce a chosen loss. Boosting can achieve excellent accuracy but generally requires more careful tuning.",
+      "latency_seconds": 22.603632699989248,
+      "source_pages": [
+        5,
+        5
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q012",
+      "question": "What is the difference between a parameter and a hyperparameter?",
+      "ground_truth": "Model parameters are learned from data during training, such as linear-regression coefficients. Hyperparameters control the learning process or model structure and are selected by the practitioner or tuning procedure.",
+      "type": "answerable",
+      "answer": "Model parameters are learned from data during training, such as linear-regression coefficients. Hyperparameters control the learning process or model structure and are selected by the practitioner or tuning procedure.",
+      "latency_seconds": 21.244408700003987,
+      "source_pages": [
+        6,
+        6
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q013",
+      "question": "What is Deep Learning?",
+      "ground_truth": "Deep Learning is a subfield of ML that uses neural networks with multiple learned layers. It is especially effective for complex data such as images, audio, text, and large-scale sequential information.",
+      "type": "answerable",
+      "answer": "Deep Learning is a subfield of ML that uses neural networks with multiple learned layers. It is especially effective for complex data such as images, audio, text, and large-scale sequential information.",
+      "latency_seconds": 25.80828399999882,
+      "source_pages": [
+        7,
+        7
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q014",
+      "question": "What is MLOps?",
+      "ground_truth": "MLOps applies software-engineering and operations practices to ML systems. It includes versioning, reproducible training, testing, deployment, monitoring, data management, model management, and controlled retraining.",
+      "type": "answerable",
+      "answer": "The engineering discipline for developing, deploying, monitoring, and maintaining reliable ML systems.",
+      "latency_seconds": 13.179218500008574,
+      "source_pages": [
+        9,
+        9,
+        8
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q015",
+      "question": "What is quantum computing?",
+      "ground_truth": "",
+      "type": "out_of_context",
+      "answer": "I could not find the answer in the provided document.",
+      "latency_seconds": 19.593150899978355,
+      "source_pages": [
+        7,
+        7,
+        1
+      ],
+      "status": "success"
+    }
+  ]
+}

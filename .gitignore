@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded PDFs
+data/uploads/*
+
+# ChromaDB
+chroma_db/
+
+# Logs
+logs/
+
+# Evaluation generated results
+data/evaluation/results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
