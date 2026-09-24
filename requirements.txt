@@ -27,3 +27,4 @@ datasets
 
 # Testing
 pytest
+langchain-ollama==1.1.0
